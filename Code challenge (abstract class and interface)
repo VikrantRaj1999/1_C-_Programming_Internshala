@@ -1,0 +1,54 @@
+Complete the given program based on the instructions provided in the comments in each class.
+
+Code template
+
+#include <iostream>
+using namespace std;
+
+class Shape {        // Should act like an abstract class or interface.  
+
+    /* Complete the code */ 
+    /* Define two pure virtual functions: getArea() and getPerimeter(). */
+};
+
+class Square : public Shape {
+
+    /* Complete the code */ 
+    /* Override appropriate methods and define 
+       appropriate attributes as required. */ 
+    
+};
+
+class Rectangle : public Shape {
+    
+    /* Complete the code */ 
+    /* Override appropriate methods and define 
+       appropriate attributes as required. */ 
+
+};
+
+class Circle : public Shape {
+
+    /* Complete the code */ 
+    /* Override appropriate methods and define 
+       appropriate attributes as required. */ 
+
+};
+
+class Triangle : public Shape {
+
+    /* Complete the code */ 
+    /* Override appropriate methods and define 
+       appropriate attributes as required. */ 
+    
+};
+
+
+int main() {
+    
+/* Create any one object among the 
+     * class Square, Rectangle, Circle, or Triangle and 
+     * print the area and perimeter. */
+
+    return 0;
+}
